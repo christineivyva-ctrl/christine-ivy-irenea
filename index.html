@@ -264,86 +264,88 @@
     </div>
   </section>
 
-  <!-- ══════════════════════════════════════════
-       PROJECTS
-  ══════════════════════════════════════════ -->
-  <section id="projects" aria-label="Featured Projects">
-    <div class="container">
-      <span class="section-label fade-up">Case Studies</span>
-      <h2 class="section-title fade-up">Featured projects</h2>
-      <div class="projects-grid">
+<!-- ══════════════════════════════════════════
+     PROJECTS
+══════════════════════════════════════════ -->
+<section id="projects" aria-label="Featured Projects">
+  <div class="container">
+    <span class="section-label fade-up">Case Studies</span>
+    <h2 class="section-title fade-up">Featured Projects</h2>
 
-        <article class="project-card project-card--featured fade-up">
-          <div class="project-img">
-            <!--
-              BUG FIX 2a: Unclosed comment was swallowing the .img-placeholder and
-              .project-overlay divs, collapsing the image container to zero height.
-              To swap in your real screenshot, replace the .img-placeholder below with:
-              <img src="images/project-crm.jpg" alt="Custom Google Sheets CRM Dashboard" />
-            -->
-            <img src="images/project-crm.png" alt="Custom Google Sheets CRM" />
-            <a href="case-study-crm.html" class="project-overlay">
-              <a href="case-study/crm.html" class="project-overlay-label">
-  View Case Study
-</a>
-            </div>
-          </div>
-          <div class="project-body">
-            <div class="project-category">CRM Development · Google Sheets · Portfolio Project</div>
-            <h3 class="project-title">Custom Sales CRM for a High-Ticket Business Coach</h3>
-            <p class="project-desc">Designed and built a fully custom Google Sheets CRM for a business coach running a high-ticket coaching program. Delivered lead tracking systems, sales pipeline monitoring, follow-up workflows, and reporting dashboards — centralizing all prospect and client data in one organized system and reducing manual tracking through a structured CRM process.</p>
-            <span class="project-result">Improved sales activity visibility and reduced manual tracking</span>
-          </div>
-        </article>
+    <div class="projects-grid">
 
-        <article class="project-card fade-up" style="transition-delay:0.1s">
-          <div class="project-img">
-            <!--
-              BUG FIX 2b: Same unclosed comment bug on the second project card.
-              To swap in your real screenshot, replace the .img-placeholder below with:
-              <img src="images/project-ecom.jpg" alt="Ecommerce Operations Dashboard" />
-            -->
-            <img src="images/project-ecom.png" alt="Ecommerce Operations" />
-            <a href="case-study-ecom.html" class="project-overlay">
-              <a href="case-study/ecom.html" class="project-overlay-label">
-  View Case Study
-</a>
-            </div>
-          </div>
-          <div class="project-body">
-            <div class="project-category">Ecommerce Operations · Multi-Platform</div>
-            <h3 class="project-title">Multi-Platform Ecommerce Operations — IPTS Health &amp; Wellness</h3>
-            <p class="project-desc">Managed end-to-end ecommerce operations for a health and wellness brand across Shopify, Shopee, Lazada, and TikTok Shop — coordinating 100+ active product listings, processing 20–40 weekly customer orders, and maintaining backend systems, inventory records, and customer communication.</p>
-            <span class="project-result">100+ listings maintained across 4 platforms simultaneously</span>
-          </div>
-        </article>
+      <!-- CRM PROJECT -->
+      <article class="project-card project-card--featured fade-up">
+        <div class="project-img">
+          <img src="images/project-crm.png" alt="Custom Google Sheets CRM" />
 
-        <article class="project-card fade-up" style="transition-delay:0.2s">
-          <div class="project-img">
-            <!--
-              BUG FIX 2c: Same unclosed comment bug on the third project card.
-              To swap in your real screenshot, replace the .img-placeholder below with:
-              <img src="images/project-social.jpg" alt="Social Media Content Calendar" />
-            -->
-            <img src="images/project-social.png" alt="Facebook Community Growth" />
-            <a href="case-study-social.html" class="project-overlay">
-              <a href="case-study/social.html" class="project-overlay-label">
-  View Case Study
-</a>
-            </div>
-          </div>
-          <div class="project-body">
-            <div class="project-category">Social Media Support · Content Planning</div>
-            <h3 class="project-title">Community &amp; Content Growth — 9.9K Facebook Community</h3>
-            <p class="project-desc">Supported brand growth for a health and wellness brand by creating content calendars, conducting competitor and market research, and organizing digital assets — contributing to the development and management of a 9.9K-follower Facebook community using Meta Business Suite, Canva, and Google Workspace.</p>
-            <span class="project-result">Supported growth of a 9.9K-follower brand community</span>
-          </div>
-        </article>
+          <a href="./case-study/crm.html" class="project-overlay">
+            <span class="project-overlay-label">View Case Study</span>
+          </a>
+        </div>
 
-      </div>
+        <div class="project-body">
+          <div class="project-category">CRM Development · Google Sheets · Portfolio Project</div>
+          <h3 class="project-title">Custom Sales CRM for a High-Ticket Business Coach</h3>
+          <p class="project-desc">
+            Designed and built a fully custom Google Sheets CRM for a business coach running a high-ticket coaching program.
+            Created lead tracking systems, sales pipeline monitoring, follow-up workflows, and reporting dashboards.
+          </p>
+          <span class="project-result">
+            Improved sales visibility and reduced manual tracking
+          </span>
+        </div>
+      </article>
+
+      <!-- ECOMMERCE PROJECT -->
+      <article class="project-card fade-up" style="transition-delay:0.1s">
+        <div class="project-img">
+          <img src="images/project-ecom.png" alt="Ecommerce Operations" />
+
+          <a href="./case-study/ecom.html" class="project-overlay">
+            <span class="project-overlay-label">View Case Study</span>
+          </a>
+        </div>
+
+        <div class="project-body">
+          <div class="project-category">Ecommerce Operations · Multi-Platform</div>
+          <h3 class="project-title">Multi-Platform Ecommerce Operations — IPTS Health & Wellness</h3>
+          <p class="project-desc">
+            Managed operations across Shopify, Shopee, Lazada, and TikTok Shop — handling listings,
+            inventory, customer orders, and backend systems.
+          </p>
+          <span class="project-result">
+            100+ listings maintained across 4 platforms
+          </span>
+        </div>
+      </article>
+
+      <!-- SOCIAL MEDIA PROJECT -->
+      <article class="project-card fade-up" style="transition-delay:0.2s">
+        <div class="project-img">
+          <img src="images/project-social.png" alt="Facebook Community Growth" />
+
+          <a href="./case-study/social.html" class="project-overlay">
+            <span class="project-overlay-label">View Case Study</span>
+          </a>
+        </div>
+
+        <div class="project-body">
+          <div class="project-category">Social Media Support · Content Planning</div>
+          <h3 class="project-title">Community & Content Growth — 9.9K Facebook Community</h3>
+          <p class="project-desc">
+            Created content calendars, supported brand growth, organized assets,
+            and conducted market research to improve consistency and engagement.
+          </p>
+          <span class="project-result">
+            Supported growth of a 9.9K Facebook community
+          </span>
+        </div>
+      </article>
+
     </div>
-  </section>
-
+  </div>
+</section>
   <!-- ══════════════════════════════════════════
        TOOLS
   ══════════════════════════════════════════ -->
